@@ -1,0 +1,28 @@
+{
+  "name": "creativewave/ps-objectmodel-extension",
+  "description": "Prestashop library to create/drop database tables used by Prestashop (1.6) modules.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillaume Lebas",
+      "email": "contact@creative-wave.fr"
+    }
+  ],
+  "autoload": {
+      "psr-4": {
+          "CW\\": "src"
+      }
+  },
+  "dist": {
+      "type": "zip",
+      "url": "https://github.com/creativewave/ps-objectmodel-extension/releases/download/v1.0.0/ps-objectmodel-extension.zip"
+  },
+  "require": {
+    "php": "^7"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2",
+    "phpunit/phpunit": "^6"
+  }
+}
